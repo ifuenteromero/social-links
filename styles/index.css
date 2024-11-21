@@ -103,6 +103,13 @@ a {
 	width: 9rem;
 	height: 9rem;
 	border-radius: 50%;
+	transition: all 0.3s;
+}
+
+.card__image:hover {
+	transform: scale(1.03);
+	box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.3);
+	transition: all 0.3s;
 }
 
 .card__title {
@@ -132,13 +139,16 @@ a {
 	background-color: var(--grey-700);
 	text-align: center;
 	border-radius: 8px;
+	transition: background-color 0.3s;
 }
 
 .social-links li:hover {
 	background-color: var(--color-primary);
 	cursor: pointer;
 	color: var(--grey-900);
+	transition: background-color 0.3s;
 }
+
 .social-links li:hover a {
 	color: var(--grey-900);
 	font-weight: 600;
