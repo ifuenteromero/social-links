@@ -1,0 +1,16 @@
+{
+	"name": "social-links",
+	"version": "1.0.0",
+	"description": "CSS Coding challenge",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"format": "prettier --write ."
+	},
+	"keywords": [],
+	"author": "Irene Fuente",
+	"license": "ISC",
+	"devDependencies": {
+		"prettier": "^3.3.3"
+	}
+}
